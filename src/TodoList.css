@@ -15,4 +15,23 @@
     border: 2px solid #0066FF;
   }
 
-  .todoListMain .TodoItems
+  .todoListMain .header button:hover{
+    background-color: mediumblue;
+    cursor: pointer;
+  }
+  .todoListMain .thelist {
+    list-style: circle;
+    padding-left: 0;
+    width: 250px;
+  } 
+  .todoListMain .thelist li {
+    color: #333;
+    background-color: rgba(255,255,255,.5);
+    padding: 15px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    list-style: none;
+  }
+  ul.thelist {
+    padding: 0;
+  }
