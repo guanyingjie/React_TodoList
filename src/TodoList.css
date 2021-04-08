@@ -31,6 +31,8 @@
     margin-bottom: 16px;
     border-radius: 5px;
     list-style: none;
+
+    transition: background-color .2s ease-out;
   }
   ul.thelist {
     padding: 0;
