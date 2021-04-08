@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 整理下todolist开发过程
+### 两个组件，一个父组件todolist，一个子组件，展示每个添加的item ,父组件构造两个添加item，删除item的函数，
+
+### 添加函数，接受用户的输入，定义一个新item变量，items数组保存用户输入的所有item，把新的item变量加到item中
+
+### 删除函数，key唯一表示一个item，定义一个变量接受用户去掉这个key之后的数组，更新setstate，
+### 在render的return中，submit中绑定添加函数，，在调用子组件那里绑定删除函数  
+
+### 子组件，接受父组件传的item。text，
